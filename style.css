@@ -46,3 +46,7 @@ body {
 .things {
     padding: 0 16px;
 }
+
+.things .paragraph:hover{
+    border-left: 3px solid #E3170A;
+}
