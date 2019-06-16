@@ -38,3 +38,11 @@ body {
     max-width: 700px;
     min-width: 500px;
 }
+
+.paragraph {
+    padding-left: 16px;
+}
+
+.things {
+    padding-left: 16px;
+}
