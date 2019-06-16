@@ -34,6 +34,10 @@ body {
     color: #e05e12;
 }
 
+.about {
+    position: relative;
+}
+
 .paragraph {
     padding: 0 0 0 16px;
 }
@@ -66,5 +70,8 @@ body {
     padding: 10px;
     border: 10px solid #d4d3d3;
     margin: 10px;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 }
