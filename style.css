@@ -53,3 +53,13 @@ body {
     min-width: 500px;
     margin: 32px auto;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #586F7C;
+    padding: 10px;
+    border: 10px solid #d4d3d3;
+    margin: 10px;
+    box-sizing: content-box;
+}
