@@ -30,7 +30,7 @@ body {
 }
 
 .link {
-    color:#e05e12;
+    color: #e05e12;
 }
 
 .about {
@@ -40,9 +40,9 @@ body {
 }
 
 .paragraph {
-    padding-left: 16px;
+    padding: 0 0 0 16px;
 }
 
 .things {
-    padding-left: 16px;
+    padding: 0 16px;
 }
