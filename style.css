@@ -49,4 +49,5 @@ body {
 
 .things .paragraph:hover{
     border-left: 3px solid #E3170A;
+    border-radius: 10px;
 }
