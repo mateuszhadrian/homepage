@@ -31,7 +31,7 @@ body {
     margin: 12px 0 0 0;
 }
 
-.link {
+.navigation__link {
     color: #e05e12;
 }
 
@@ -70,7 +70,7 @@ body {
     text-decoration: none;
 }
 
-.nav {
+.navigation {
     position: fixed;
     width: 100%;
     top: 0;
