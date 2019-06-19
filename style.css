@@ -4,24 +4,6 @@ body {
     margin: 0;
 }
 
-.pageHeader {
-    color: #1C1C1C;
-    margin: 20px 0 60px 16px;
-}
-
-
-.thingsTop {
-    color: #2F4550;
-}
-
-.thingsItemTop {
-    color: #586F7C;
-}
-
-.articleHeader {
-    color: #1C1C1C;
-}
-
 .footer {
     color: #d4d3d3;
     background: #686868;
@@ -32,19 +14,20 @@ body {
     color: #e05e12;
 }
 
-
 .things {
     padding: 0 16px;
 }
 
-.things .paragraph{
+.things__paragraph {
     border-left: 3px solid rgba(255, 255, 255, 0);
     border-radius: 10px;
+    padding: 0 0 0 16px;
 }
 
-.things .paragraph:hover{
+.things__paragraph:hover {
     border-left: 3px solid #E3170A;
     border-radius: 2px;
+    padding: 0 0 0 16px;
 }
 
 .main {
@@ -55,7 +38,7 @@ body {
     padding-top: 51px;
 }
 
-.goTop {
+.footer__go-top {
     position: fixed;
     bottom: 0;
     right: 10px;
@@ -73,9 +56,7 @@ body {
     background: white;
 }
 
-.about {
-
-}
+.about {}
 
 .about__header {
     color: #E3170A;
@@ -85,7 +66,7 @@ body {
     width: 100%;
     max-width: 100px;
     float: left;
-    margin: 0 16px 16px 0; 
+    margin: 0 16px 16px 0;
 }
 
 .about__paragraph {
@@ -93,5 +74,34 @@ body {
 }
 
 .about__paragraph--color {
-    color: #E3170A
+    color: #E3170A;
+}
+
+.header {}
+
+.header__title {
+    color: #1C1C1C;
+    margin: 20px 0 60px 16px;
+}
+
+.things__header {
+    color: #2F4550;
+}
+
+.things__item-header {
+    color: #586F7C;
+}
+
+.article {}
+
+.article__header {
+    color: #1C1C1C;
+}
+
+.article__paragraph {
+    padding: 0 0 0 16px;
+}
+
+.article__picture {
+    width: 30%;
 }
