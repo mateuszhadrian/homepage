@@ -9,9 +9,6 @@ body {
     margin: 20px 0 60px 16px;
 }
 
-.sectionHeader {
-    color: #E3170A;
-}
 
 .thingsTop {
     color: #2F4550;
@@ -35,10 +32,6 @@ body {
     color: #e05e12;
 }
 
-
-.paragraph {
-    padding: 0 0 0 16px;
-}
 
 .things {
     padding: 0 16px;
@@ -80,9 +73,25 @@ body {
     background: white;
 }
 
-.photoAbout {
+.about {
+
+}
+
+.about__header {
+    color: #E3170A;
+}
+
+.about__picture {
     width: 100%;
     max-width: 100px;
     float: left;
     margin: 0 16px 16px 0; 
+}
+
+.about__paragraph {
+    padding: 0 0 0 16px;
+}
+
+.about__paragraph--color {
+    color: #E3170A
 }
