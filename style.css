@@ -10,10 +10,6 @@ body {
     margin: 12px 0 0 0;
 }
 
-.navigation__link {
-    color: #e05e12;
-}
-
 .things {
     padding: 0 16px;
 }
@@ -53,8 +49,34 @@ body {
     top: 0;
     left: 0;
     box-sizing: border-box;
-    padding: 16px;
+    padding: 4px;
     background: white;
+}
+
+.navigation__button {
+    height: 32px;
+    width: 128px;
+    border: none;
+    border-radius: 8%;
+    background: #F2ED6F;
+    margin: 0 16px;
+}
+
+.navigation__button--homepage {
+    background: rgb(255, 173, 50);
+    height: 48px;
+}
+
+.navigation__link {
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #e05e12;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.navigation__link--homepage {
+    color: darkred;
 }
 
 .about {}
