@@ -22,6 +22,7 @@ body {
     border-left: 3px solid rgba(255, 255, 255, 0);
     border-radius: 10px;
     padding: 0 0 0 16px;
+    line-height: 24px;
 }
 
 .things__paragraph:hover {
@@ -60,6 +61,7 @@ body {
 
 .about__header {
     color: #E3170A;
+    font-size: 32px;
 }
 
 .about__picture {
@@ -86,10 +88,12 @@ body {
 
 .things__header {
     color: #2F4550;
+    font-size: 32px;
 }
 
 .things__item-header {
     color: #586F7C;
+    font-size: 24px;
 }
 
 .article {}
