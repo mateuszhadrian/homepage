@@ -65,6 +65,20 @@ body {
     color: darkred;
 }
 
+.my-hobbies__header {
+    color: #E3170A;
+    font-size: 32px;
+}
+
+.my-hobbies__list {
+    color: #2F4550;
+    font-size: 16px;
+    list-style: none;
+}
+
+.my-hobbies__item {
+}
+
 .about {}
 
 .about__header {
