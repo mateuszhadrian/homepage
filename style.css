@@ -76,6 +76,14 @@ body {
     list-style: none;
 }
 
+.navigation__list {
+    list-style: none;
+}
+
+.navigation__item {
+    display: inline;
+}
+
 .my-hobbies__item {
 }
 
