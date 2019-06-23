@@ -43,13 +43,13 @@ body {
     text-decoration: none;
 }
 
-.navigation {
+.site-header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     box-sizing: border-box;
-    padding: 4px;
+    padding: 4px 4px 2px 4px;
     background: white;
 }
 
@@ -78,6 +78,8 @@ body {
 
 .navigation__list {
     list-style: none;
+    padding: 0;
+    margin: 8px;
 }
 
 .navigation__item {
@@ -116,6 +118,19 @@ body {
     margin: 20px 0 60px 16px;
 }
 
+.table {
+    width: 100%;
+    border: 2px solid black;
+    border-spacing: 0;
+}
+
+.table__header-row{
+    border-bottom: 2px solid black;
+}
+
+.table__body-row{
+    border: 1px solid black;
+}
 .things__header {
     color: #2F4550;
     font-size: 32px;
