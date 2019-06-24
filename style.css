@@ -43,6 +43,11 @@ body {
     padding-top: 51px;
 }
 
+.main--gallery {
+    max-width: 900px;
+    min-width: 500px;
+}
+
 .footer__go-top {
     position: fixed;
     bottom: 0;
@@ -161,4 +166,27 @@ body {
 
 .article__picture {
     width: 30%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery__thumbnail {
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 8px;
+    width: 256px;
+}
+
+.gallery__picture {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.gallery__picture-description {
+    text-align: center;
 }

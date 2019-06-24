@@ -2,35 +2,69 @@
 <html lang="pl">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	<header class="site-header">
-		<nav class="navigation">
-			<ul class="navigation__list">
-				<li class="navigation__item"><a class="navigation__link" href="index.html">Homepage</a></li>
-				<li class="navigation__item"><a class="navigation__link" href="podstrona1.html">1Podstrona</a></li>
-				<li class="navigation__item"><a class="navigation__link" href="podstrona2.html">2Podstrona</a></li>
-				<li class="navigation__item"><a class="navigation__link" href="galeria.html">Galeria</a></li>
-			</ul>
-		</nav>
-	</header>
+    <header class="site-header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="index.html">Homepage</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="podstrona1.html">1Podstrona</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="podstrona2.html">2Podstrona</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	<main id="top" class="main">
+    <main id="top" class="main main--gallery">
+        <div class="gallery">
+            <div class="gallery__thumbnail">
+                <img class="gallery__picture" src="imgs/photo2.jpeg">
+                <p class="gallery__picture-description">To jest opis tego zdjęcia</p>
+            </div>
+            <div class="gallery__thumbnail">
+                <img class="gallery__picture" src="imgs/photo3.jpg">
+                <p class="gallery__picture-description">A to tego drugiego</p>
+            </div>
+            <div class="gallery__thumbnail">
+                <img class="gallery__picture" src="imgs/photo4.jpg">
+                <p class="gallery__picture-description">To natomiast to opis zdjęcia kolejnego</p>
+            </div>
+            <div class="gallery__thumbnail">
+                <img class="gallery__picture" src="imgs/photo5.jpg">
+                <p class="gallery__picture-description">A to jest taki Andrzej</p>
+            </div>
+            <div class="gallery__thumbnail">
+                <img class="gallery__picture" src="imgs/photo6.jpeg">
+                <p class="gallery__picture-description">Tu zaś widnieje kuzyn Błażeja</p>
+            </div>
+            <div class="gallery__thumbnail">
+                <img class="gallery__picture" src="imgs/photo7.jpg">
+                <p class="gallery__picture-description">To jest opis tego zdjęcia</p>
+            </div>
+            <div class="gallery__thumbnail">
+                <img class="gallery__picture" src="imgs/photo6.jpeg">
+                <p class="gallery__picture-description">To jest opis tego zdjęcia</p>
+            </div>
+            <div class="gallery__thumbnail">
+                <img class="gallery__picture" src="imgs/photo4.jpg">
+                <p class="gallery__picture-description">To jest opis tego zdjęcia</p>
+            </div>
+        </div>
+    </main>
 
-	</main>
 
-	<footer class="footer">
-		<a href="#top" class="footer__go-top">Na górę</a>
-		Strona domowa Mateusza Hadriana - wszystkie treści są po to, żeby sobie poćwiczyć
-	</footer>
-	<script src="main.js"></script>
+    <footer class="footer">
+        <a href="#top" class="footer__go-top">Na górę</a>
+        Strona domowa Mateusza Hadriana - wszystkie treści są po to, żeby sobie poćwiczyć
+    </footer>
+    <script src="main.js"></script>
 </body>
 
 </html>
