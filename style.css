@@ -177,10 +177,14 @@ body {
 
 .gallery__thumbnail {
     padding: 4px;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.425);
     border: 1px solid rgba(0, 0, 0, 0.158);
     border-radius: 8px;
-    width: 256px;
+    flex-basis: 256px;
+}
+
+.gallery__thumbnail:hover{
+    background: white;
 }
 
 .gallery__picture {
