@@ -172,12 +172,18 @@ body {
 }
 
 .gallery {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
 }
 
+.gallery--flex {
+    display: flex;
+}
+
+.gallery-grid {
+    display: grid;
+}
 .gallery__thumbnail {
     padding: 4px;
     background: rgba(255, 255, 255, 0.425);
