@@ -179,10 +179,14 @@ body {
 
 .gallery--flex {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
-.gallery-grid {
+.gallery--grid {
     display: grid;
+
 }
 .gallery__thumbnail {
     padding: 4px;
