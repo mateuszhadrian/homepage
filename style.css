@@ -289,7 +289,7 @@ body {
         grid-template-columns: 1fr 1fr;
     }
     .things-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .things__item:hover {
         border-left: none;
@@ -304,6 +304,11 @@ body {
     .gallery--grid {
         grid-template-columns: 1fr;
     }
+
+    .things-grid {
+        grid-template-columns: 1fr;
+    }
+
     .navigation__list {
         flex-direction: column;
         display: none;
