@@ -13,15 +13,16 @@
 <body>
     <header class="site-header">
         <nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a class="navigation__link" href="index.html">Homepage</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="podstrona1.html">1Podstrona</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="podstrona2.html">2Podstrona</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="flexgaleria.html">FlexGaleria</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="gridgaleria.html">GridGaleria</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="gridpage.html">GridPage</a></li>
-            </ul>
-        </nav>
+			<ul class="navigation__list navigation__list--js">
+				<li class="navigation__item"><a class="navigation__link" href="index.html">Homepage</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="podstrona1.html">1Podstrona</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="podstrona2.html">2Podstrona</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="flexgaleria.html">FlexGaleria</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="gridgaleria.html">GridGaleria</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="gridpage.html">GridPage</a></li>
+			</ul>
+			<button class="navigation__switcher navigation__switcher--js">☰</button>
+		</nav>
     </header>
 
     <main id="top" class="main main--grid-page">
@@ -50,6 +51,9 @@
             <button class="gbutton">
                 <li class="gnavigation__item action-button--js">ACTION!</li>
             </button>
+            <button class="gbutton go-button--js">
+                <li class="gnavigation__item">GO!</li>
+            </button>
         </nav>
         <article class="garticle">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate autem, cupiditate reiciendis
@@ -72,6 +76,7 @@
         Strona domowa Mateusza Hadriana - wszystkie treści są po to, żeby sobie poćwiczyć
     </footer>
     <script src="gridpage.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
