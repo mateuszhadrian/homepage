@@ -24,22 +24,23 @@ body {
 }
 
 .things__paragraph {
-    border-left: 3px solid rgba(255, 255, 255, 0);
-    border-radius: 10px;
-    padding: 0 0 0 16px;
     line-height: 24px;
 }
 
-.things__paragraph:hover {
-    border-left: 3px solid #E3170A;
-    border-radius: 2px;
-    padding: 0 0 0 16px;
+.things__item {
+    border-left: 3px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    padding-left: 16px;
 }
 
+.things__item:hover {
+    border-left: 3px solid #E3170A;
+    border-radius: 2px;
+}
 .main {
     width: 100%;
     max-width: 700px;
-    min-width: 500px;
+    min-width: 400px;
     margin: 0 auto;
     padding-top: 51px;
     min-height: 100vh;
@@ -269,4 +270,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 32px;
+}
+
+@media (max-width: 560px) {
+    .things-grid {
+        grid-template-columns: 1fr;
+    }
 }
