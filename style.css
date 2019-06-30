@@ -41,6 +41,7 @@ body {
     min-width: 500px;
     margin: 0 auto;
     padding-top: 51px;
+    min-height: 96vh;
 }
 
 .main--gallery {
@@ -212,4 +213,53 @@ body {
 
 .gallery__picture-description {
     text-align: center;
+}
+
+.main--grid-page {
+    display: grid;
+    grid-template-areas: "header header header"
+    "menu . content"
+    "footer footer footer";
+    grid-template-columns: 100px 16px 1fr;
+}
+
+.gheader {
+    grid-area: header;
+    text-align: center;
+    background: #2F4550;
+    color: whitesmoke;
+}
+
+.gnavigation {
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.garticle {
+    grid-area: content;
+    border: 2px solid #2F4550;
+    border-radius: 2px;
+    padding: 8px;
+    background: whitesmoke;
+}
+
+.gfooter {
+    grid-area: footer;
+    background: #2F4550;
+    padding: 8px;
+}
+
+.gnavigation__link {
+    text-decoration: none;
+}
+
+.gnavigation__item {
+    list-style-type: none;
+}
+
+.gbutton {
+    padding: 8px;
+    width: 100%;
 }
