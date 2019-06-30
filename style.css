@@ -37,6 +37,7 @@ body {
     border-left: 3px solid #E3170A;
     border-radius: 2px;
 }
+
 .main {
     width: 100%;
     max-width: 700px;
@@ -105,8 +106,7 @@ body {
     margin: 0 8px;
 }
 
-.my-hobbies__item {
-}
+.my-hobbies__item {}
 
 .about {}
 
@@ -143,13 +143,14 @@ body {
     border-spacing: 0;
 }
 
-.table__header-row{
+.table__header-row {
     border-bottom: 2px solid black;
 }
 
-.table__body-row{
+.table__body-row {
     border: 1px solid black;
 }
+
 .things__header {
     color: #2F4550;
     font-size: 32px;
@@ -190,11 +191,22 @@ body {
 .gallery--grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
-
 }
+
+@media (max-width: 1000px) and (min-width: 640px) {
+    .gallery--grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .gallery--grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .gallery__thumbnail {
     padding: 4px;
     background: rgba(255, 255, 255, 0.425);
@@ -203,7 +215,7 @@ body {
     flex-basis: 256px;
 }
 
-.gallery__thumbnail:hover{
+.gallery__thumbnail:hover {
     background: white;
 }
 
@@ -219,9 +231,7 @@ body {
 
 .main--grid-page {
     display: grid;
-    grid-template-areas: "header header header"
-    "menu . content"
-    "footer footer footer";
+    grid-template-areas: "header header header" "menu . content" "footer footer footer";
     grid-template-columns: 100px 16px 1fr;
 }
 
@@ -276,15 +286,13 @@ body {
     .things-grid {
         grid-template-columns: 1fr;
     }
-
     .things__item:hover {
         border-left: none;
     }
-
 }
 
 @media (min-width: 1000px) {
     .main {
         max-width: 900px;
     }
-} 
+}
