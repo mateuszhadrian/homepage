@@ -16,6 +16,7 @@ body {
     color: #d4d3d3;
     background: #686868;
     margin: 12px 0 0 0;
+    height: 100px;
 }
 
 .things {
@@ -41,7 +42,7 @@ body {
     min-width: 500px;
     margin: 0 auto;
     padding-top: 51px;
-    min-height: 96vh;
+    min-height: 100vh;
 }
 
 .main--gallery {
