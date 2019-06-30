@@ -264,3 +264,9 @@ body {
     padding: 8px;
     width: 100%;
 }
+
+.things-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 32px;
+}
