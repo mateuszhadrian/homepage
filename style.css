@@ -40,7 +40,7 @@ body {
 .main {
     width: 100%;
     max-width: 700px;
-    min-width: 400px;
+    min-width: 300px;
     margin: 0 auto;
     padding-top: 51px;
     min-height: 100vh;
@@ -276,4 +276,15 @@ body {
     .things-grid {
         grid-template-columns: 1fr;
     }
+
+    .things__item:hover {
+        border-left: none;
+    }
+
 }
+
+@media (min-width: 1000px) {
+    .main {
+        max-width: 900px;
+    }
+} 
